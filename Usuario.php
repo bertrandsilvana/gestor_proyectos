@@ -41,6 +41,7 @@ public function getEmail(){
         public function setNombre_proyecto($nombre_proyecto){
         $this->nombre_proyecto=$nombre_proyecto;
         } 
+        
     public static function asignar_fecha_inicio($fecha_inicio){
 
         return "La fecha de inicio del proyecto es $fecha_inicio";
